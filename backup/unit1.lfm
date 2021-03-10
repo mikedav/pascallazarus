@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 130
+  Height = 600
+  Top = 128
+  Width = 800
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Вариант 4'
+  ClientHeight = 600
+  ClientWidth = 800
+  DesignTimePPI = 120
+  LCLVersion = '2.0.8.0'
+  Scaled = False
+  object StringGrid1: TStringGrid
+    Left = 408
+    Height = 232
+    Top = 40
+    Width = 328
+    AutoFillColumns = True
+    FixedCols = 0
+    FixedRows = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goAlwaysShowEditor, goSmoothScroll]
+    TabOrder = 0
+    ColWidths = (
+      64
+      64
+      64
+      64
+      68
+    )
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 20
+    Top = 488
+    Width = 44
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 28
+    Top = 520
+    Width = 252
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 31
+    Top = 40
+    Width = 182
+    Caption = 'Изменить размерность'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 32
+    Height = 31
+    Top = 80
+    Width = 94
+    Caption = 'Подсчитать'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 32
+    Height = 31
+    Top = 120
+    Width = 166
+    Caption = 'Заполнить случайно'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object ListBox1: TListBox
+    Left = 408
+    Height = 228
+    Top = 328
+    Width = 325
+    ItemHeight = 0
+    TabOrder = 5
+  end
+end
